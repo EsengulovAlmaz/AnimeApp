@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: orange;
+}
+.back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border: 1px solid rgb(74, 72, 72);
+    border-radius: 10px;
+    background-color: rgb(74, 72, 72);
+    padding: 14px 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.back:hover {
+    transform: scale(1.1);
+    gap: 25px;
+}
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.header_row h2 {
+    font-size: 30px;
+    color: black;
+    margin: 0;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    color: orange;
+    text-align: right;
+}
+.card_img img{
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+}
+.card_more div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    border-bottom: 1px solid rgb(214, 126, 10);
+    padding-top: 30px;
+}
+.card_more div p{
+    font-size: 24px;
+    margin: 0;
+}
+.card_more div h2 {
+    margin: 0;
+}
